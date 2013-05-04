@@ -14,27 +14,27 @@
        var b=document.getElementById("passwd");
        var l=document.getElementById("lable1");
        if(a == "" || b == "")
-         lable1.ownerDocument="ÊäÈëµÄÓÃ»§Ãû»òÃÜÂë²»ÄÜÎª¿Õ¡£";
+         lable1.ownerDocument="ç”¨æˆ·åæˆ–å¯†ç ä¸èƒ½ä¸ºç©ºã€‚";
          } </script>
    </head>
 
    <body>
    <div id="container">
    <div id="header">
-   <h1>ÓÃ»§ÃûºÍÃÜÂëÑéÖ¤·Ç¿Õ</h1>
+   <h1>ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¤ï¿½Ç¿ï¿½</h1>
    </div>
    
    <div id="main">
    
-   <form name=a>ĞÕÃû£º
+   <form name=a>ç”¨æˆ·åï¼š
    <input type="text" name="user" id="user"/>
    <br />
-     ÃÜÂë£º
+    å¯†ç ï¼š
    <input type="password" name="passwd" id="passwd"/>
    <br />
    <br />
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-   <input type="Button" name="button" value="Ìá½»" onclick="check()" />
+   <input type="Button" name="button" value="æäº¤" onclick="check()" />
    &nbsp;<label id="lable1"></label>
    </form>
    </div>
