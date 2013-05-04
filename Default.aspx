@@ -14,27 +14,27 @@
        var b=document.getElementById("passwd");
        var l=document.getElementById("lable1");
        if(a == "" || b == "")
-         lable1.ownerDocument="用户名或密码不能为空。";
+         lable1.ownerDocument="user or password can not be empty";
          } </script>
    </head>
 
    <body>
    <div id="container">
    <div id="header">
-   <h1>�û�����������֤�ǿ�</h1>
+   <h1>Verification user and password.</h1>
    </div>
    
    <div id="main">
    
-   <form name=a>用户名：
+   <form name=a>username:
    <input type="text" name="user" id="user"/>
    <br />
-    密码：
+    password
    <input type="password" name="passwd" id="passwd"/>
    <br />
    <br />
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-   <input type="Button" name="button" value="提交" onclick="check()" />
+   <input type="Button" name="button" value="submit" onclick="check()" />
    &nbsp;<label id="lable1"></label>
    </form>
    </div>
