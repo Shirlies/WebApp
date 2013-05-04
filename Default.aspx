@@ -29,7 +29,7 @@
    <form name=a>username:
    <input type="text" name="user" id="user"/>
    <br />
-    password
+    password :
    <input type="password" name="passwd" id="passwd"/>
    <br />
    <br />
